@@ -1,0 +1,25 @@
+.icon-wireless:hover {
+  color: white !important;
+  background-color: orange !important;
+}
+
+.icon-setting:hover {
+  color: white !important;
+  background-color: #1a1a1a !important;
+}
+
+.box-information-more {
+  float: left;
+  text-decoration: none;
+}
+.box-information-more:hover span {
+  color: white;
+  background-color: #444;
+}
+.box-information-more span {
+  font-family: yekan;
+  font-size: 10px;
+  color: #666;
+  padding: 0px 10px 2px 9px;
+  background: #e8e8e8;
+}/*# sourceMappingURL=boxPictureMini.css.map */

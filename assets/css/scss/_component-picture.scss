@@ -1,0 +1,331 @@
+.border-image {
+  border-top: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.component-picture {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 6px;
+  cursor: pointer;
+  img {
+    height: 100%;
+
+    transition: all 0.9s ease-in-out;
+    &:hover {
+      transform: scale(1.03);
+
+      cursor: pointer;
+    }
+  }
+  .icon-sticky {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    font-size: 14px;
+    background-color: #0040ad;
+  }
+  .text-image {
+    font-family: nassim-bold;
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    z-index: 1;
+    p {
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
+.blur {
+  &::before {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.95) 30%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    content: "";
+    height: 83px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+  }
+}
+
+.col-image-package-mini {
+  &:hover {
+    .wrapper-icon-title-package {
+      margin-right: 10px;
+    }
+  }
+  .wrapper-image-title-mini {
+    cursor: pointer;
+    margin-bottom: -3px;
+    .wrapper-icon {
+      margin-bottom: 10px;
+      .wrapper-icon-title-package {
+        transition: all 0.5s ease-in-out;
+        display: inline-block;
+        .icon-package-1 {
+          i {
+            color: #444;
+            float: right;
+          }
+        }
+        .title-package {
+          margin-right: 8px;
+          a {
+            text-decoration: none;
+            color: #444;
+            font-size: 15px;
+            font-family: nassim-bold;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .wrapper-package-mini {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-top: 3px solid #444444;
+    display: flex;
+    border-left: 1px solid gainsboro;
+    margin-bottom: 13px;
+    padding: 10px 12px 10px 12px;
+   
+
+    .image {
+      img {
+      }
+    }
+    .speaker {
+      margin: 0 0 2px;
+      padding: 0;
+      font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #555;
+    }
+    .title-package-mini {
+      font-size: 14px;
+      font-family: nassim-bold;
+      line-height: 21px;
+      margin-right: 10px;
+      overflow: hidden;
+    }
+  }
+}
+
+.container-repeated {
+  cursor: pointer;
+
+  .wrapper-box-component {
+    padding: 8px 3px 28px 3px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    display: block;
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+
+    .component-picture {
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+    .content-box-picture {
+      font-size: 23px;
+      font-family: nassim-bold;
+      padding: 0px 9px;
+      h2 {
+        line-height: 27px;
+      }
+    }
+  }
+
+  .col-package-financial {
+    .wrapper-package-mini {
+      border-top: none;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+      border-top: none;
+      padding-top: 9px;
+  
+    
+   
+      .box-package-mini {
+        display: flex;
+        border-bottom: 1px solid gainsboro;
+        :last-child{
+          border-bottom: none;
+        }
+        
+
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .col-list-package-center {
+    .box-tag-big {
+      background-color: white;
+      .wrapper-content {
+        border-left: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro;
+        padding: 6px 10px 6px 10px;
+        .content {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: 14px;
+
+          padding: 9px 0px;
+          border-bottom: 1px solid gainsboro;
+          &:last-child {
+            border-bottom: none;
+            padding-top: 10px;
+          }
+
+          a {
+            text-decoration: none;
+            color: black;
+            &::before {
+              font-family: FontAwesome;
+              display: inline-block;
+              content: "\f111";
+              font-size: 8px;
+              line-height: 1;
+              position: relative;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .package-gif {
+    img {
+      height: 100%;
+    }
+  }
+
+  .col-package-left {
+  }
+}
+
+.container-header-rows-news {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 3px #483d8b;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.cost-currency {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.blur {
+  &::before {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.95) 30%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    content: "";
+    height: 83px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+  }
+}
+
+.news-config-row {
+  .icon-wireless {
+    margin-left: 5px !important;
+  }
+
+  .dropdown-setting {
+    display: inline-block;
+    button {
+      padding: 5px 12px 0px 12px;
+      border-radius: 0px;
+      background-color: #e0e0e0 !important;
+      border: none;
+      color: #666;
+      &:hover {
+        background-color: #1a1a1a !important;
+        color: white;
+      }
+
+      i {
+      }
+    }
+    .dropdown-menu {
+      width: 220px !important;
+      border-radius: 0px !important;
+      padding-bottom: 2px !important;
+      padding-top: 2px !important;
+
+      .wrapper-setting {
+        .row-setting {
+          padding-top: 2px !important;
+          padding-bottom: 2px !important;
+          padding-right: 4px !important;
+
+          .option-setting {
+            margin-right: 0px !important;
+            color: black !important;
+            text-decoration: none;
+            background-color: white;
+            &:hover {
+              background-color: rgb(215, 214, 214);
+            }
+
+            align-items: center;
+            text-align: right;
+            display: flex;
+            padding: 6px 8px 6px 0px;
+
+            i {
+              background: #222;
+              color: white;
+              border-radius: 100%;
+              width: 22px;
+              height: 22px;
+              text-align: center;
+              font-size: 14px;
+              padding-top: 4px;
+              margin-left: 5px;
+            }
+            .icon-title-1 {
+              padding-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f2f2f2 !important;
+  box-shadow: none !important;
+  color: black !important;
+  border: none !important;
+}

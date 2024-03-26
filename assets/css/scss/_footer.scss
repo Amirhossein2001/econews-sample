@@ -1,0 +1,433 @@
+footer {
+  .container-fluid {
+    background-color: #1a1a1a;
+    .col-footer-right {
+      padding-bottom: 7px;
+      .wrapper-footer {
+        display: flex;
+        padding-top: 14px;
+        align-items: center;
+        .footer-top {
+          .footer-link-sub {
+            display: flex;
+            .footer-content {
+              a {
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                i {
+                  color: white;
+                  padding-left: 21px;
+
+                  background-color: #1a1a1a;
+                  font-size: 21px;
+                  border-left: 1px solid white;
+                }
+              }
+            }
+          }
+        }
+        .wrapper-weather-timezone {
+          display: flex;
+          align-items: center;
+          .wrapper-weather {
+            .image-weather {
+              width: 40px;
+              height: 30px;
+              img {
+                height: 100%;
+                width: 100%;
+              }
+            }
+          }
+          .info-weather {
+            font-family: nassim-bold;
+            margin-right: 3px;
+            strong {
+              color: white;
+            }
+          }
+          .wrapper-city-weather {
+            position: relative;
+            margin-right: 10px;
+            i {
+              position: absolute;
+              left: -27px;
+              top: 2px;
+              color: #555;
+              font-size: 13px;
+              font-weight: bolder;
+              
+            }
+            .city-weather {
+              background-color: #1a1a1a;
+              border: none;
+              color: white;
+              font-family: nassim-bold;
+              font-weight: bold;
+              -webkit-appearance: none;
+            }
+          }
+        }
+      }
+    }
+    .col-footer-left {
+      padding-left: 5px !important;
+      .wrapper-footer-input {
+        position: relative;
+        i {
+          position: absolute;
+          top: 15px;
+          left: 20px;
+          font-size: 18px;
+          color: white;
+        }
+        input {
+          float: left;
+          background: transparent;
+          border: none;
+          outline: none;
+          -moz-border-radius: 0;
+          -webkit-border-radius: 0;
+          border-radius: 0;
+          padding: 11px 54px;
+          height: auto;
+          font-size: 19px;
+          color: white;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .footer-gradiant {
+    background: linear-gradient(to top left, #2d2d2d, #000);
+    .footer-bottom {
+
+      .container-footer-bottom {
+        max-width: 1042px !important;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        .row-centered {
+          padding: 10px 0 15px;
+          .footer-name-website {
+            font-size: 0px;
+            font: bold 60px arial;
+            color: white;
+            direction: ltr;
+            text-align: center;
+            margin: -10px 0 8px;
+            .footer-name-sub-1 {
+              font-size: 60px;
+              display: inline-block;
+              color: white;
+              font-weight: normal;
+            }
+            span{
+              font-size: 60px;
+            }
+            .footer-name-sub-2 {
+              font-size: 20px;
+              display: inline-block;
+              font-size: 25px;
+              line-height: 1;
+              position: relative;
+              bottom: -2px;
+              color: white;
+            }
+          }
+        }
+        .icon-social {
+          display: flex;
+          justify-content: center;
+          .footer-icon {
+            list-style: none;
+            padding: 0px 0px !important;
+            .fa-stack.fa-lg.icon-telegram {
+              opacity: 0.8;
+              border-radius: 100%;
+              overflow: hidden;
+              width: 34px;
+              height: 34px;
+              margin: 0 15px;
+              &:hover {
+                .fa.fa-send.fa-stack-1x.fa-inverse {
+                  color: white;
+                }
+
+                .fa.fa-square.fa-stack-2x {
+                  color: rgb(4, 183, 219);
+                }
+              }
+              .fa.fa-send.fa-stack-1x.fa-inverse {
+                font-size: 17px;
+                top: -3px;
+                color: rgb(204, 201, 201);
+
+                &::before {
+                  content: "\f1d8";
+                }
+              }
+              .fa.fa-square.fa-stack-2x {
+                left: 0px;
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                z-index: var(--fa-stack-z-index, auto);
+                top: -3px;
+                color: #2586b5;
+                &::before {
+                  content: "\f0c8";
+                }
+              }
+            }
+          }
+        }
+      }
+      .footer-footer {
+        background-image: linear-gradient(138deg, #080808, #232323);
+
+        .container-footer-footer {
+          max-width: 1246px !important;
+          .col-footer-footer {
+            text-align: left;
+            margin-top: 10px;
+            .wrapper-footer-footer-right {
+              display: flex;
+              align-items: center;
+            }
+            .footer-footer-image {
+              max-width: 120px;
+              img {
+                height: 100%;
+                width: 100%;
+              }
+            }
+            .footer-copyright {
+              color: white;
+              margin-right: 15px;
+              font-size: 14px;
+              color: #919191;
+
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fa-stack.fa-lg.icon-instagram {
+  opacity: 0.8;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  &:hover {
+    .fa.fa-instagram.fa-stack-1x.fa-inverse {
+      color: white;
+    }
+
+    .fa.fa-square.fa-stack-2x {
+      color: rgb(243, 135, 77);
+    }
+  }
+  .fa.fa-square.fa-stack-2x {
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: var(--fa-stack-z-index, auto);
+    top: -3px;
+    color: #905941;
+    &::before {
+      content: "\f0c8";
+    }
+  }
+  .fa.fa-instagram.fa-stack-1x.fa-inverse {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    top: -3px;
+    color: rgb(204, 201, 201);
+  }
+}
+
+.fa-stack.fa-lg.icon-linkedin {
+  opacity: 0.8;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  &:hover {
+    .fa.fa-linkedin.fa-stack-1x.fa-inverse {
+      color: white;
+    }
+
+    .fa.fa-square.fa-stack-2x {
+      color: rgb(72, 117, 239);
+    }
+  }
+  .fa.fa-square.fa-stack-2x {
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: var(--fa-stack-z-index, auto);
+    top: -3px;
+    color: #1328a1;
+    &::before {
+      content: "\f0c8";
+    }
+  }
+  .fa.fa-linkedin.fa-stack-1x.fa-inverse {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    top: -3px;
+    color: rgb(204, 201, 201);
+  }
+}
+
+.fa-stack.fa-lg.icon-google-plus {
+  opacity: 0.8;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  &:hover {
+    .fa.fa-google-plus.fa-stack-1x.fa-inverse {
+      color: white;
+    }
+
+    .fa.fa-square.fa-stack-2x {
+      color: rgb(223, 65, 65);
+    }
+  }
+  .fa.fa-square.fa-stack-2x {
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: var(--fa-stack-z-index, auto);
+    top: -3px;
+    color: #a83127;
+    &::before {
+      content: "\f0c8";
+    }
+  }
+  .fa.fa-google-plus.fa-stack-1x.fa-inverse {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    top: -3px;
+    color: rgb(204, 201, 201);
+  }
+}
+
+.fa-stack.fa-lg.icon-twitter {
+  opacity: 0.8;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  &:hover {
+    .fa.fa-twitter.fa-stack-1x.fa-inverse {
+      color: white;
+    }
+
+    .fa.fa-square.fa-stack-2x {
+      color: rgb(103, 223, 247);
+    }
+  }
+  .fa.fa-square.fa-stack-2x {
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: var(--fa-stack-z-index, auto);
+    top: -3px;
+    color: #23a0c7;
+    &::before {
+      content: "\f0c8";
+    }
+  }
+  .fa.fa-twitter.fa-stack-1x.fa-inverse {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    top: -3px;
+    color: rgb(204, 201, 201);
+  }
+}
+
+.fa-stack.fa-lg.icon-facebook {
+  opacity: 0.8;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  &:hover {
+    .fa.fa-facebook.fa-stack-1x.fa-inverse {
+      color: white;
+    }
+
+    .fa.fa-square.fa-stack-2x {
+      color: rgb(4, 183, 219);
+    }
+  }
+  .fa.fa-square.fa-stack-2x {
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: var(--fa-stack-z-index, auto);
+    top: -3px;
+    color: rgb(38, 38, 155);
+    &::before {
+      content: "\f0c8";
+    }
+  }
+  .fa.fa-facebook.fa-stack-1x.fa-inverse {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    top: -3px;
+    color: rgb(204, 201, 201);
+  }
+}
+
+.footer-sub {
+  margin-top: 25px;
+
+  .col-list-last {
+    .list-footer {
+      list-style: none;
+      &:hover {
+        background-color: #b01927;
+      }
+
+      a {
+        text-decoration: none;
+
+        display: block;
+        padding: 8px 4px 5px 0px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #ddd;
+        font-size: 14px;
+      }
+    }
+  }
+}
